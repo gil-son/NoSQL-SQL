@@ -69,7 +69,7 @@ CREATE TRIGGER tgr_item_sold_delete AFTER DELETE
 ON tbl_item_sold
 FOR EACH ROW
 BEGIN
-	UPDATE product SET stock = stock + OLD.quantity
+	UPDATE tbl_product SET stock = stock + OLD.quantity
     WHERE id_product = OLD.cod_sold_product;
 END$
 
