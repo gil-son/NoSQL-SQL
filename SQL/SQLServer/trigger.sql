@@ -28,14 +28,14 @@ AS
 BEGIN
 	DECLARE
     @data  DATETIME,
-	-- Criação da tabela temporária 'inserted' que recebe os dados temporariamente da tabela 'vendas' em uma linha
+	-- Criação da tabela temporária 'inserted' que receberá os dados temporariamente da tabela 'vendas' em uma linha
 	@valor DECIMAL(10, 2) 
     
 	
-	-- As variáveis recebem aqueles valores durante a seleção*/
+	-- As variáveis recebem aqueles valores durante o select*/
 	SELECT @data = data, @valor = valor FROM inserted  
 
-	-- Em seguida os valores das variávies são utilizados para fazer o update*/
+	-- Em seguida os valores das variávies são utilizadas para fazer o update*/
 	UPDATE caixa SET saldo_final = saldo_final + @valor 
     WHERE data = @data
 END
