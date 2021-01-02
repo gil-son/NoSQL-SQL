@@ -1,7 +1,7 @@
 # SQL - MySQL - Function
 
 
-```CREATE PROCEDURE sp_name ([parameter[,...]])
+`CREATE PROCEDURE sp_name ([parameter[,...]])
 [characteristic ...] routine_body
 
 CREATE FUNCTION sp_name ([parameter[,...]])
@@ -19,9 +19,10 @@ characteristic:
  | [NOT] DETERMINISTIC
  | SQL SECURITY {DEFINER | INVOKER}
  | COMMENT string
+`
 
 routine_body:
- Valid SQL procedure statement(s)```
+ Valid SQL procedure statement(s)
 
 
 The RETURNS clause can only be for a FUNCTION only. It is used to indicate the return type of the function, 
