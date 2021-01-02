@@ -7,7 +7,7 @@ CREATE TABLE caixa (
   GO
 
 
---Inicialmente o Saldo Inicial é igual ao Saldo Final
+--Inicialmente o Saldo Inicial é igual ao Saldo Final 
 INSERT INTO caixa(data, saldo_inicial, saldo_final)
 
 -- Obtém a data, converte para DateTime e depois converte para Vachar com o tamanho 120. Pois quando for comparar as datas, é interessante estar como string
