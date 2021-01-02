@@ -1,2 +1,2 @@
-# NoSQL-SQL
-SQL(SQLServer and/or MySQL) and/or NoSQL(MongoDB)
+# SQL - SQLServer
+
