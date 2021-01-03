@@ -3,7 +3,7 @@ USE Company;
 
 CREATE TABLE employee
 (
-	id_employee INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    id_employee INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
     employee_name VARCHAR(50)
 );
 
