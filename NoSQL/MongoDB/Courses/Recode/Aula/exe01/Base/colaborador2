@@ -1,0 +1,220 @@
+[{
+  "_id": {
+    "$oid": "6014664aadb4354bb169638a"
+  },
+  "nome": "Willian",
+  "idade": "19",
+  "salario": 5000.81,
+  "cargo": "Analista pleno",
+  "endereco": [
+    "Rua Dino da Silva Sauro",
+    "101",
+    "apartamento 505"
+  ],
+  "matricula": 1
+},{
+  "_id": {
+    "$oid": "60146b4baed11106878f0ef3"
+  },
+  "nome": "Flavio",
+  "idade": "22",
+  "salario": 2555.99,
+  "cargo": "Analista junior",
+  "endereco": [
+    "Rua Alface",
+    "50",
+    "apartamento 10"
+  ],
+  "matricula": 2
+},{
+  "_id": {
+    "$oid": "60146cddaed11106878f0ef4"
+  },
+  "nome": "Elnatan",
+  "idade": "25",
+  "salario": 3755.99,
+  "cargo": "Analista junior II",
+  "endereco": [
+    "Rua Alface",
+    "100",
+    "apartamento 101"
+  ],
+  "matricula": 3
+},{
+  "_id": {
+    "$oid": "60146e1eaed11106878f0ef5"
+  },
+  "nome": "Mitch",
+  "idade": "25",
+  "salario": 3755.99,
+  "cargo": "Analista junior II",
+  "endereco": [
+    "Rua da Chorrindo",
+    "890",
+    "casa 3"
+  ],
+  "matricula": 4
+},{
+  "_id": {
+    "$oid": "60146e1eaed11106878f0ef6"
+  },
+  "nome": "Beatriz",
+  "idade": "19",
+  "salario": 5000.99,
+  "cargo": "Analista junior III",
+  "endereco": [
+    "Rua da Alegria",
+    "1",
+    "apartamento 110"
+  ],
+  "matricula": 5
+},{
+  "_id": {
+    "$oid": "601417708bd3cfb2563f8a2b"
+  },
+  "nome": "Jefferson",
+  "dataadmissao": {
+    "$date": "2021-01-29T02:09:50Z"
+  },
+  "cargo": "Gerente",
+  "Salario": 10000.55,
+  "idade": "30",
+  "atividades": [
+    "Responder diretoria TI",
+    "Monitorar gestao de TI"
+  ],
+  "endereco": "Rua Dino da Silva Sauro, 105",
+  "complemento": "apartamento 101",
+  "passatempo": [
+    "netflix",
+    "Amazon Prime",
+    "Disney +",
+    "HBO GO",
+    "Globo Play"
+  ]
+},{
+  "_id": {
+    "$oid": "60141e05305cc113db379fde"
+  },
+  "dataadmissao": {
+    "$date": "2018-01-29T01:09:50Z"
+  },
+  "cargo": "Analista Sênior",
+  "Salario": 8500,
+  "idade": "30",
+  "atividades": [
+    "Responder Gestao de TI",
+    "Monitorar Comportamento de SIstemas"
+  ],
+  "endereco": "Rua Dino da Silva Sauro, 105",
+  "complemento": "apartamento 101",
+  "passatempo": [
+    "netflix",
+    "Amazon Prime",
+    "Disney +",
+    "HBO GO",
+    "Globo Play"
+  ],
+  "nomecompleto": "Wellington Miranda",
+  "nome": "Wellignton"
+},{
+  "_id": {
+    "$oid": "60142033305cc113db379fdf"
+  },
+  "dataadmissao": {
+    "$date": "2018-01-29T01:09:50Z"
+  },
+  "cargo": "Analista Sênior",
+  "Salario": 8500,
+  "idade": "30",
+  "atividades": [
+    "Responder Gestao de TI",
+    "Monitorar Comportamento de SIstemas"
+  ],
+  "endereco": "Rua Dino da Silva Sauro, 105",
+  "complemento": "apartamento 101",
+  "passatempo": [
+    "netflix",
+    "Amazon Prime",
+    "Disney +",
+    "HBO GO",
+    "Globo Play"
+  ],
+  "nomecompleto": "Wellington Miranda",
+  "nome": "Wellignton"
+},{
+  "_id": {
+    "$oid": "60142037305cc113db379fe0"
+  },
+  "dataadmissao": {
+    "$date": "2018-01-29T01:09:50Z"
+  },
+  "cargo": "Analista Sênior",
+  "Salario": 8500,
+  "idade": "30",
+  "atividades": [
+    "Responder Gestao de TI",
+    "Monitorar Comportamento de SIstemas"
+  ],
+  "endereco": "Rua Dino da Silva Sauro, 105",
+  "complemento": "apartamento 101",
+  "passatempo": [
+    "netflix",
+    "Amazon Prime",
+    "Disney +",
+    "HBO GO",
+    "Globo Play"
+  ],
+  "nomecompleto": "Wellington Miranda",
+  "nome": "Wellignton"
+},{
+  "_id": {
+    "$oid": "6014203d305cc113db379fe1"
+  },
+  "dataadmissao": {
+    "$date": "2018-01-29T01:09:50Z"
+  },
+  "cargo": "Analista Sênior",
+  "Salario": 8500,
+  "idade": "30",
+  "atividades": [
+    "Responder Gestao de TI",
+    "Monitorar Comportamento de SIstemas"
+  ],
+  "endereco": "Rua Dino da Silva Sauro, 105",
+  "complemento": "apartamento 101",
+  "passatempo": [
+    "netflix",
+    "Amazon Prime",
+    "Disney +",
+    "HBO GO",
+    "Globo Play"
+  ],
+  "nomecompleto": "Wellington Miranda",
+  "nome": "Wellignton"
+},{
+  "_id": {
+    "$oid": "60142041305cc113db379fe2"
+  },
+  "dataadmissao": {
+    "$date": "2018-01-29T01:09:50Z"
+  },
+  "cargo": "Analista Sênior",
+  "Salario": 8500,
+  "idade": "30",
+  "atividades": [
+    "Responder Gestao de TI",
+    "Monitorar Comportamento de SIstemas"
+  ],
+  "endereco": "Rua Dino da Silva Sauro, 105",
+  "complemento": "apartamento 101",
+  "passatempo": [
+    "netflix",
+    "Amazon Prime",
+    "Disney +",
+    "HBO GO",
+    "Globo Play"
+  ],
+  "nomecompleto": "Wellington Miranda",
+  "nome": "Wellignton"
+}]
