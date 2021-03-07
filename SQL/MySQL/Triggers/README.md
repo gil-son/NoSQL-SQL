@@ -3,7 +3,7 @@
 ## UML 
 
 ### Accounting for after sales/refuse products 
-<a href="https://imgbox.com/BoZLOB1K" target="_blank"><img src="https://thumbs2.imgbox.com/61/a5/BoZLOB1K_t.png" alt="image host"/></a>
+<a href="https://imgbox.com/BoZLOB1K" target="_blank"><img src="https://images2.imgbox.com/61/a5/BoZLOB1K_o.png" alt="image host"/></a>
 
 
 
