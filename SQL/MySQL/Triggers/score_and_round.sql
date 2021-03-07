@@ -13,6 +13,7 @@ CREATE TABLE IF NOT EXISTS tbl_score
 	id_score INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
     id_player INT NOT NULL,
     score INT DEFAULT 0,
+    attempt INT DEFAULT 0,
     FOREIGN KEY(id_player) REFERENCES tbl_player(id_player)
 );
 
@@ -26,8 +27,11 @@ CREATE TABLE IF NOT EXISTS tbl_round
     FOREIGN KEY(id_player) REFERENCES tbl_player(id_player)
 );
 
-INSERT INTO tbl_player (name, genre) VALUES('Aaa','F'), ('Bbb','M'), ('Ccc','M'), ('Ddd','F');  SELECT * FROM  tbl_player;
-INSERT INTO tbl_score (id_player) VALUES (1),(2),(3),(4); SELECT * FROM tbl_score;
+INSERT INTO tbl_player (name, genre) VALUES('Aaa','F'), ('Bbb','M'), ('Ccc','M'), ('Ddd','F');  
+SELECT * FROM  tbl_player;
+
+INSERT INTO tbl_score (id_player) VALUES (1),(2),(3),(4); 
+SELECT * FROM tbl_score;
 
 /* ALERT! WHEN CREATE A TRIGGER, USE OTHER FILE SQL. BECAUSE CAN INTERFERE
 
@@ -36,7 +40,8 @@ CREATE TRIGGER tgr_register_points AFTER INSERT
 ON tbl_round
 FOR EACH ROW
 BEGIN
-	UPDATE tbl_score SET score = score + NEW.point
+	UPDATE tbl_score
+    SET score = score + NEW.point, attempt = attempt + 1
 	WHERE id_score = NEW.id_player;
 END$
 DELIMITER ;
@@ -51,16 +56,15 @@ SELECT * FROM tbl_score;
 SELECT * FROM tbl_round;
 
 -- ROUND 2
-INSERT INTO tbl_round (id_score,id_player,point) VALUES(1,1,1),(2,2,2),(3,3,3),(4,4,3);
+INSERT INTO tbl_round (id_score,id_player,point) VALUES(1,1,15),(2,2,25),(3,3,35),(4,4,35);
 SELECT * FROM tbl_score;
 SELECT * FROM tbl_round;
 
 -- ROUND 3
-INSERT INTO tbl_round (id_score,id_player,point) VALUES(1,1,4),(2,2,3),(3,3,2),(4,4,2);
+INSERT INTO tbl_round (id_score,id_player,point) VALUES(1,1,45),(2,2,35),(3,3,25),(4,4,25);
 SELECT * FROM tbl_score;
 SELECT * FROM tbl_round;
 
 
-
--- DROP database score_and_round;
+ -- DROP database score_and_round;
 
