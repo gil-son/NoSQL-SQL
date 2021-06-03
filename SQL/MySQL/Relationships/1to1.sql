@@ -2,7 +2,7 @@ CREATE DATABASE IF NOT EXISTS relationships;
 USE relationships;
 
 CREATE TABLE IF NOT EXISTS cliente(
-	id_cliente INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    id_cliente INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
     nome VARCHAR(20) NOT NULL,
     sexo_cliente ENUM('M','F') NOT NULL,
     status ENUM('Aprovado','Reprovado') NOT NULL
@@ -24,7 +24,7 @@ SELECT * FROM cliente;
 
 
 CREATE TABLE IF NOT EXISTS documento(
-	id_documento INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    id_documento INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
     id_clienteFK INT NOT NULL,
     tipo_documento ENUM('RG','CPF') NOT NULL,
     numero_documento VARCHAR(14) NOT NULL,
